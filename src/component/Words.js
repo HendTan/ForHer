@@ -9,8 +9,6 @@ const StrContent = () => {
             <h1 style={{textAlign: 'center'}}>生日快乐呀！！！！</h1>
             <button onClick={message1}
                 style={{
-                    position: 'relative', 
-                    left: '650px',
                     backgroundColor:'black',
                     color: 'white',
                     borderColor: 'white',
