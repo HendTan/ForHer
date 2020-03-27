@@ -1,0 +1,13 @@
+body{
+  background-color: black;
+  margin: 0px;
+  font-family: 'Indie Flower', cursive;
+}
+img{
+  width: 50px;
+}
+li{
+  list-style-type: circle;
+  font-size: 26px;
+  margin: 5px;
+}
