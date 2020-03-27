@@ -5,7 +5,6 @@ body{
 }
 img{
   width: 50px;
-  position: absolute;
 }
 li{
   list-style-type: circle;
