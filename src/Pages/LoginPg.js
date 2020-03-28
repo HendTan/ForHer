@@ -45,9 +45,7 @@ const Login = () => {
                         }}/>
                         <input type='password'  ref={password} onChange={handleOnChange} style={{
                             borderRadius: '10px',
-                            position: 'relative',
-                            top: '130px',
-                            left: '-180px'
+                            margin: 'auto'
                         }}/>
                         <button type='submit' onClick={subBtn} disabled={!disabled} style={{
                             borderRadius: '10px',
