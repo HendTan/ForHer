@@ -1,5 +1,5 @@
 import React, { useState,useRef } from 'react'
-import './App.css'
+import '../App.css'
 import ImageCar from '../component/Carousel'
 import StrContent from '../component/Words'
 
