@@ -39,8 +39,6 @@ const Login = () => {
                     <form >
                         <input type='text' ref={username} onChange={handleOnChange} style={{
                             borderRadius: '10px',
-                            position: 'relative',
-                            top: '100px',
                             left: '0px'
                         }}/>
                         <input type='password'  ref={password} onChange={handleOnChange} style={{
@@ -49,9 +47,7 @@ const Login = () => {
                         }}/>
                         <button type='submit' onClick={subBtn} disabled={!disabled} style={{
                             borderRadius: '10px',
-                            position: 'relative',
-                            top: '200px',
-                            left: '-300px'
+                            left: '0px'
                         }}>Login</button> 
                     </form>
                 </div>
