@@ -37,11 +37,11 @@ const Login = () => {
                 </div>:
                 <div>
                     <form >
-                        <h5>Username</h5>
+                        <h5 style={{color: 'white', fontSize: '26px'}}>Username</h5>
                         <input type='text' ref={username} onChange={handleOnChange} style={{
                             borderRadius: '10px',
                         }}/>
-                        <h5>Password</h5>
+                        <h5 style={{color: 'white', fontSize: '26px'}}>Password</h5>
                         <input type='password'  ref={password} onChange={handleOnChange} style={{
                             borderRadius: '10px'
                         }}/>
