@@ -36,10 +36,12 @@ const Login = () => {
                     <StrContent />
                 </div>:
                 <div>
-                    <form style={{marginRight: '10px'}}>
+                    <form >
+                        <label>Username</label>
                         <input type='text' ref={username} onChange={handleOnChange} style={{
                             borderRadius: '10px',
                         }}/>
+                        <label>Password</label>
                         <input type='password'  ref={password} onChange={handleOnChange} style={{
                             borderRadius: '10px'
                         }}/>
