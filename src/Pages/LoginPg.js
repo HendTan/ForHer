@@ -1,5 +1,5 @@
 import React, { useState,useRef } from 'react'
-
+import './App.css'
 import ImageCar from '../component/Carousel'
 import StrContent from '../component/Words'
 
@@ -37,11 +37,11 @@ const Login = () => {
                 </div>:
                 <div>
                     <form >
-                        <label>Username</label>
+                        <h5>Username</h5>
                         <input type='text' ref={username} onChange={handleOnChange} style={{
                             borderRadius: '10px',
                         }}/>
-                        <label>Password</label>
+                        <h5>Password</h5>
                         <input type='password'  ref={password} onChange={handleOnChange} style={{
                             borderRadius: '10px'
                         }}/>
