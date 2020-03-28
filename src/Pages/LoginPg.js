@@ -38,7 +38,8 @@ const Login = () => {
                 <div>
                     <form >
                         <input type='text' ref={username} onChange={handleOnChange} style={{
-                            borderRadius: '10px'
+                            borderRadius: '10px',
+                            paddingTop: '10px '
                         }}/>
                         <input type='password'  ref={password} onChange={handleOnChange} style={{
                             borderRadius: '10px'
