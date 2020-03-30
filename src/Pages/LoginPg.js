@@ -40,10 +40,12 @@ const Login = () => {
                         <h5 style={{color: 'white', fontSize: '26px'}}>Username</h5>
                         <input type='text' ref={username} onChange={handleOnChange} style={{
                             borderRadius: '10px',
+                            fontSize: '26px'
                         }}/>
                         <h5 style={{color: 'white', fontSize: '26px'}}>Password</h5>
                         <input type='password'  ref={password} onChange={handleOnChange} style={{
-                            borderRadius: '10px'
+                            borderRadius: '10px',
+                            fontSize: '26px'
                         }}/>
                         <button type='submit' onClick={subBtn} disabled={!disabled} style={{
                             borderRadius: '10px'
