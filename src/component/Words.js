@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../App.css'
 const StrContent = () => {
     const message1 = () => {
         alert('虽然不知道你已经收过这个礼物第几次了，但还是想说生日快乐。爱你哟！')
