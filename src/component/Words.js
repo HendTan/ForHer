@@ -5,7 +5,7 @@ const StrContent = () => {
         alert('虽然不知道你已经收过这个礼物第几次了，但还是想说生日快乐。爱你哟！')
     }
     return (
-        <div style={{color: 'salmon pink', margin: '10px', border: '1px solid white', borderRadius:'10px'}}>
+        <div style={{color: 'salmon', margin: '10px', border: '1px solid white', borderRadius:'10px'}}>
             <h1 style={{textAlign: 'center'}}>生日快乐呀！！！！</h1>
             <button onClick={message1}
                 style={{
